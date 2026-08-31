@@ -78,10 +78,6 @@ Para comprobar que la imagen fue creada:
 
 docker images
 
-### Captura de docker images
-
-![Docker Images](capturas/docker-images.png)
-
 ## Ejecución del contenedor
 
 El contenedor fue ejecutado mediante:
@@ -99,10 +95,6 @@ Para comprobar que el contenedor se encuentra funcionando:
 
 docker ps
 
-### Captura de docker ps
-
-![Docker PS](capturas/docker-ps.png)
-
 ## Aplicación funcionando
 
 La aplicación puede ser consultada desde el navegador mediante:
@@ -112,10 +104,6 @@ http://localhost:8080
 La aplicación muestra:
 
 ¡Hola desde Docker y Node.js!
-
-### Captura de la aplicación
-
-![Aplicación funcionando](capturas/aplicacion.png)
 
 ## Comandos utilizados
 
@@ -146,7 +134,3 @@ docker stop hello-node-container
 ### Eliminar contenedor
 
 docker rm hello-node-container
-
-## Conclusión
-
-Mediante esta práctica se aprendió a crear una aplicación básica con Node.js, construir una imagen personalizada utilizando Docker, ejecutar la aplicación dentro de un contenedor y realizar el mapeo de puertos para acceder a ella desde el navegador.
